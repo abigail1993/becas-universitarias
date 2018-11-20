@@ -1,9 +1,76 @@
+.boton {
+    background-color: #1C74B3;
+    color: white;
+}
 
 .rojo {
-    background-color: red;
+    background-color:rgb(148, 30, 30);
     color: white;
 }
 .amarillo {
-    background-color: yellow;
+    background-color: rgb(206, 206, 34);
+    color: white;
     
+}
+
+.verde{
+    background: rgb(34, 247, 87);
+    color: white;
+}
+.negro{
+    background: black;
+    color:white;
+}
+.todo{
+    background-color: rgb(44, 245, 18);
+    border: 10px solid rgb(144, 245, 124);
+    color: white;
+}
+.text {
+    font-size: 30px;
+}
+.p-nav {
+    background-color: #1C74B3;
+}
+#cuadro {
+    margin: 0 auto;
+    padding: 40px;
+}
+#img {
+    width: 15%;
+    height: 10%;
+}
+#titulo {
+    color: white;
+    font-size: 70px;
+}
+
+#formulario{
+    border: solid 5px #1C74B3;
+    margin: 50px auto;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .text {
+        font-size: 15px;
+    }
+    #formulario{
+        border: solid 5px #1C74B3;
+        margin: 20px auto;
+        padding: 12px 15px;
+        text-align: center;
+    }
+    #titulo {
+        color: white;
+        font-size: 14px !important;
+    }  
+}
+
+@media only screen and (max-width: 800px){
+    #titulo {
+        color: white;
+        font-size: 30px;
+    }  
 }

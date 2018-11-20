@@ -15,11 +15,9 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-              <img src="image/wunderman.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                Universidad Wunderman
-            </a>
+          <nav class="navbar navbar-light p-nav">
+              <img id="img" src="image/wunderman.png" width="30" height="30" class="d-inline-block align-top" alt="">
+              <h1 id="titulo">  Universidad Wunderman.  </h1>
           </nav>
         </div>
       </div>
@@ -27,22 +25,22 @@
 
     <div class="container-fluid" >
       <div class="row">
-        <div class="col-8" style="border: 2px solid;text-align:center; margin: 50px auto;">
+        <div class="col-10 col-lg-8" id="formulario">
           <form action=""> 
             <div class="form-group">
-              <label for="exampleInputPago1">Pago mensual.</label>
-              <input type="text" class="form-control" id="pago"  placeholder="$ Ingresa tu pago mensual ejemplo: 1000.00">
+              <label for="exampleInputPago1" class="text">Pago mensual.</label>
+              <input type="number" class="form-control" id="pago"  placeholder="ejemplo: 1000.00">
             </div>
             <div class="form-group">
-              <label for="exampleInputPromedio1">Promedio obtenido este mes.</label>
-              <input type="text" class="form-control" id="promedio" placeholder="Ingresa tu promedio obtenido este mes ejemplo: 8.1">
+              <label for="exampleInputPromedio1" class="text">Promedio obtenido este mes.</label>
+              <input type="number" class="form-control" id="promedio" placeholder=" ejemplo: 8.1">
             </div>
-            <button type="button" class="btn" value="Validar" onclick="validar()">Calcular descuento</button>
+            <button type="button" class="btn boton" value="Validar" onclick="validar()">Calcular descuento</button>
           </form>
         </div>
       </div>
       <div class="row" style="text-align: center;">
-        <div class="col-12" id="cuadro">
+        <div class="col-10 col-lg-8" id="cuadro">
           <h4 id="res"> 0 </h4>
         </div>
       </div>
